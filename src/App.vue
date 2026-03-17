@@ -334,9 +334,8 @@ const visibleFriends = computed(() => {
 
 <template>
   <main class="app">
-    <h1>乒乓球友档位榜</h1>
+    <h1>阳光乒协档位表</h1>
     <p class="desc">档位使用数字表示，数字越大代表水平越高。</p>
-
     <section class="toolbar">
       <input
         v-model="searchKeyword"
